@@ -24,35 +24,35 @@ const Home = () =>{
                                     <img className="img-fluid rounded-3" src="images/catbanner-01.jpg" alt="main banner" />
                                     <div className="small-banner-content position-absolute">
                                         <h4>siêu sale</h4>
-                                        <h5>iPhone 14 Pro</h5>
-                                        <p>Giá từ 999$ <br /> 
-                                        hoặc $40/tháng</p>
+                                        <h5>MacBook Air M1</h5>
+                                        <p>Giá từ 1500$ <br />
+                                        hoặc $60/tháng</p>
                                     </div>
                                 </div>
                                 <div className="small-banner position-relative p-3">
-                                    <img className="img-fluid rounded-3" src="images/catbanner-01.jpg" alt="main banner" />
+                                    <img className="img-fluid rounded-3" src="images/catbanner-02.jpg" alt="main banner" />
                                     <div className="small-banner-content position-absolute">
                                         <h4>siêu sale</h4>
-                                        <h5>iPhone 14 Pro</h5>
-                                        <p>Giá từ 999$ <br /> 
-                                        hoặc $40/tháng</p>
+                                        <h5>Apple Watch SE</h5>
+                                        <p>Giá từ 499$ <br /> 
+                                        hoặc $25/tháng</p>
                                     </div>
                                 </div>
                                 <div className="small-banner position-relative p-3">
-                                    <img className="img-fluid rounded-3" src="images/catbanner-01.jpg" alt="main banner" />
+                                    <img className="img-fluid rounded-3" src="images/catbanner-03.jpg" alt="main banner" />
                                     <div className="small-banner-content position-absolute">
                                         <h4>siêu sale</h4>
-                                        <h5>iPhone 14 Pro</h5>
-                                        <p>Giá từ 999$ <br /> 
-                                        hoặc $40/tháng</p>
+                                        <h5>Ipad Pro 2023</h5>
+                                        <p>Giá từ 599$ <br /> 
+                                        hoặc $30/tháng</p>
                                     </div>
                                 </div>
                                 <div className="small-banner position-relative p-3">
-                                    <img className="img-fluid rounded-3" src="images/catbanner-01.jpg" alt="main banner" />
+                                    <img className="img-fluid rounded-3" src="images/catbanner-04.jpg" alt="main banner" />
                                     <div className="small-banner-content position-absolute">
                                         <h4>siêu sale</h4>
-                                        <h5>iPhone 14 Pro</h5>
-                                        <p>Giá từ 999$ <br /> 
+                                        <h5>Airpod Max</h5>
+                                        <p>Giá từ 799$ <br /> 
                                         hoặc $40/tháng</p>
                                     </div>
                                 </div>
