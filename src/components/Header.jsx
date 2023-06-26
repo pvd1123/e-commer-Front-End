@@ -34,8 +34,8 @@ const Header = () =>{
                                 <input
                                     type="text"
                                     className="form-control py-2"
-                                    placeholder="Search Product Here..."
-                                    aria-label="Search Product Here..."
+                                    placeholder="Tìm Kiếm Sản Phẩm..."
+                                    aria-label="Tìm Kiếm Sản Phẩm..."
                                     aria-describedby="basic-addon2"
                                 />
                                 <span className="input-group-text p-3" id="basic-addon2">
@@ -89,7 +89,31 @@ const Header = () =>{
                     <div className="row">
                         <div className="col-12">
                             <div className="menu-bottom d-flex align-items-center gap-30">
-                                <div></div>
+                                <div>
+                                    <div className="dropdown">
+                                        <button
+                                            className="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex align-items-center"
+                                            type="button"
+                                            id="dropdownMenuButton1"Name
+                                            data-bs-toggle="dropdown"
+                                            aria-expanded="false"
+                                        >
+                                            <img src="images/menu.svg" alt="" />
+                                            <span className="me-5 d-inline-block">Categories</span>
+                                        </button>
+                                        <ul className="dropdown-menu">
+                                            <li>
+                                                <Link className="dropdown-item text-white" to="">Action</Link>
+                                            </li>
+                                            <li>
+                                                <Link className="dropdown-item text-white" to="">Another action</Link>
+                                            </li>
+                                            <li>
+                                                <Link className="dropdown-item text-white" to="">Something else here</Link>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                                 <div className="menu-links">
                                     <div className="d-flex align-items-center gap-15">
                                         <NavLink to="/">Trang Chủ</NavLink>
