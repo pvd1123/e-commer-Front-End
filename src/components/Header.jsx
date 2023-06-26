@@ -99,7 +99,7 @@ const Header = () =>{
                                             aria-expanded="false"
                                         >
                                             <img src="images/menu.svg" alt="" />
-                                            <span className="me-5 d-inline-block">Categories</span>
+                                            <span className="me-5 d-inline-block">Danh Mục Sản Phẩm</span>
                                         </button>
                                         <ul className="dropdown-menu">
                                             <li>
