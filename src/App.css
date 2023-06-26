@@ -197,4 +197,31 @@ footer .input-group-text{
   width: 49%;
 }
 
+.home-wrapper-2{
+  background-color: var(--color-f5f5f7);
+}
+
+    /* categories */
+.categories{
+  background-color: white;
+  box-shadow: 0 0 10px #0000001a;
+  padding: 15px;
+}
+
+.categories>div{
+  width: 24%;
+}
+
+.categories>div:nth-child(1),
+.categories>div:nth-child(2),
+.categories>div:nth-child(3),
+.categories>div:nth-child(4){
+  border-bottom: 1px solid var(--color-ededed);
+}
+
+.categories>div:nth-child(1),
+.categories>div:nth-child(2),
+.categories>div:nth-child(3){
+  border-right: 1px solid var(--color-ededed);
+}
          /* End Home Page  */
