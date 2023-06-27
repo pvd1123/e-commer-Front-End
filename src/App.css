@@ -255,7 +255,7 @@ footer .input-group-text{
 
          /* End Home Page  */
 
-         /* Blog */
+         /* Css Blog */
 .blog-card{
   background-color: white;
   border-radius: 10px;
@@ -315,3 +315,38 @@ footer .input-group-text{
   margin-bottom: 30px;
 }
          /* End Blog */
+
+         /* ProductCard - Brand Product */
+.product-card{
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.product-card:hover .action-bar{
+  right: 15px;
+}
+
+.product-card .product-details h6{
+  color: var(--color-bf4800);
+  font-size: 13px;
+}
+
+.product-card .product-details h5{
+  font-size: 15px;
+  color: var(--color-1c1c1b);
+}
+
+.product-card .product-details p .price{
+  font-size: 16px;
+  color: var(--color-1c1c1b);
+}
+
+.action-bar{
+  top: 10%;
+  right: -23px;
+  transition: 0.3s;
+}
+
+          /* End Css ProductCard - Brand Product */
