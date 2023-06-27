@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Marquee from "react-fast-marquee";
+import BlogCard from "../components/BlogCard";
 
 const Home = () =>{
     return (
@@ -146,11 +148,11 @@ const Home = () =>{
                                     <h6>Smart Watch</h6>
                                     <p>Sản Phẩm</p>
                                 </div>
-                                <img style={{width:"110px", height:"110px"}} src="images/watch.jpg" alt="camera" />
+                                <img src="images/watch.jpg" alt="camera" />
                             </div>
                             <div className="d-flex gap-30 align-items-center">
                                 <div>
-                                    <h6>Camera</h6>
+                                    <h6>Máy Ảnh <br/> Máy Quay Phim</h6>
                                     <p>Sản Phẩm</p>
                                 </div>
                                 <img src="images/camera.jpg" alt="camera" />
@@ -167,19 +169,19 @@ const Home = () =>{
                                     <h6>Tai Nghe</h6>
                                     <p>Sản Phẩm</p>
                                 </div>
-                                <img style={{paddingLeft: "70px"}} src="images/headphone.jpg" alt="camera" />
+                                <img src="images/headphone.jpg" alt="camera" />
                             </div>
                             <div className="d-flex gap-30 align-items-center">
                                 <div>
                                     <h6>Loa</h6>
                                     <p>Sản Phẩm</p>
                                 </div>
-                                <img style={{paddingLeft: "20px"}} src="images/speaker.jpg" alt="camera" />
+                                <img  src="images/speaker.jpg" alt="camera" />
                             </div>
                             <div className="d-flex gap-30 align-items-center">
                                 <div>
-                                    <h6>Đồ Gia Dụng</h6>
-                                    <p>Homeapp</p>
+                                    <h6>PC</h6>
+                                    <p>PC Gaming</p>
                                 </div>
                                 <img src="images/homeapp.jpg" alt="camera" />
                             </div>
@@ -203,8 +205,60 @@ const Home = () =>{
                 </div>
             </div>
         </section>
+        <section className="marque-wrapper py-5">
+          <div className="container-xxl">
+            <div className="row">
+              <div className="col-12">
+                <div className="marque-inner-wrapper card-wrapper">
+                  <Marquee className="d-flex">
+                    <div className="mx-4 w-25">
+                      <img src="images/brand-01.png" alt="brand" />
+                    </div>
+                    <div className="mx-4 w-25">
+                      <img src="images/brand-02.png" alt="brand" />
+                    </div>
+                    <div className="mx-4 w-25">
+                      <img src="images/brand-03.png" alt="brand" />
+                    </div>
+                    <div className="mx-4 w-25">
+                      <img src="images/brand-04.png" alt="brand" />
+                    </div>
+                    <div className="mx-4 w-25">
+                      <img src="images/brand-05.png" alt="brand" />
+                    </div>
+                    <div className="mx-4 w-25">
+                      <img src="images/brand-06.png" alt="brand" />
+                    </div>
+                    <div className="mx-4 w-25">
+                      <img src="images/brand-07.png" alt="brand" />
+                    </div>
+                    <div className="mx-4 w-25">
+                      <img src="images/brand-08.png" alt="brand" />
+                    </div>
+                  </Marquee>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="home-wrapper-2 blog-wrapper py-5">
+          <div className="container-xxl">
+            <div className="row">
+              <div className="col-12">
+                <h3 className="section-heading">Các Đánh Giá Nổi Bật</h3>
+              </div>
+              <BlogCard />
+              <BlogCard />
+              <BlogCard />
+              <BlogCard />
+            </div>
+              
+          </div>
+        </section>
       </>
     );
 };
 
 export default Home;
+
+//23017
