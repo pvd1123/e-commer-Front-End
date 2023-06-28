@@ -385,4 +385,10 @@ footer .input-group-text{
   width: 250px;
   height: 250px;
 }
+
+.special-product-content .red-p{
+  color: red;
+  font-size: 30px;
+  font-weight: 300;
+}
           /* End SpecialProduct */

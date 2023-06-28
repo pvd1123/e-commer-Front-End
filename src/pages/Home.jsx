@@ -233,7 +233,6 @@ const Home = () =>{
             <div className="row">
               <SpecialProduct />
               <SpecialProduct />
-              <SpecialProduct />
             </div>
           </div>
         </section>

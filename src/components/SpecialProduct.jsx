@@ -28,7 +28,7 @@ const SpecialProduct = () =>{
               </p>
               <div className="discount-till d-flex align-items-center gap-10">
                 <p className="mb-0">
-                  <b>5 </b>ngày
+                  <b>12 </b>ngày
                 </p>
                 <div className="d-flex gap-10 align-items-center">
                   <span className="badge rounded-circle p-3 bg-danger">1</span>:
@@ -37,12 +37,12 @@ const SpecialProduct = () =>{
                 </div>
               </div>
               <div className="prod-count my-3">
-                <p>Sản Phẩm: 5</p>
+                <p>Sản Phẩm: 23</p>
                 <div className="progress">
                   <div
                     className="progress-bar"
                     role="progressbar"
-                    style={{ width: "25%" }}
+                    style={{ width: "60%" }}
                     aria-valuenow="25"
                     aria-valuemin="0"
                     aria-valuemax="100"
