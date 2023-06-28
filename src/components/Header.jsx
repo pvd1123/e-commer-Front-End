@@ -10,7 +10,7 @@ const Header = () =>{
                     <div className="row">
                         <div className="col-6">
                             <p className="text-white mb-0">
-                                Free Ship Cho Đơn Hàng Trên 100$
+                                Free Ship Cho Đơn Hàng Trên 1000$
                             </p>
                         </div>
                         <div className="col-6">

@@ -6,9 +6,15 @@ const ProductCard = () =>{
     return(
     <>
         <div className="col-3">
-            <div className="product-card position-relative">
+            <Link className="product-card position-relative">
+                <div className="wishlist-icon position-absolute">
+                    <Link>
+                        <img src="images/wish.svg" alt="wishlist" />
+                    </Link>
+                </div>
                 <div className="product-image ">
-                    <img src="images/watch1.jpg" alt="product-brand" />
+                    <img src="images/watch1.jpg" className="img-fluid" alt="product-brand" />
+                    <img src="images/watch-1.avif" className="img-fluid" alt="product-brand" />
                 </div>
                 <div className="product-details">
                     <h6 className="brand">Apple</h6>
@@ -19,7 +25,7 @@ const ProductCard = () =>{
                         value="5"
                         edit={false}
                         activeColor="#ffd700"
-                    />,
+                    />
                     <p className="price">799$</p>
                 </div>
                 <div className="action-bar position-absolute">
@@ -35,7 +41,7 @@ const ProductCard = () =>{
                         </Link>
                     </div>
                 </div>
-            </div>
+            </Link>
         </div>
     </>
     )
