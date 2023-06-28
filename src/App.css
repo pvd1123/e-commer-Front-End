@@ -392,3 +392,95 @@ footer .input-group-text{
   font-weight: 300;
 }
           /* End SpecialProduct */
+
+          /* Famous-card */
+.famous-card .famous-content{
+  top: 10%;
+  left: 10%;
+}
+
+.famous-card .famous-content-2{
+  top: 60%;
+  left: 10%;
+}
+
+.famous-card img{
+  border-radius: 10px;
+}
+
+.famous-content h5{
+  font-size: 25px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.famous-content h6{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 38px;
+}
+
+.famous-content p{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 120;
+}
+          /* End Famous-card */
+
+          /* CSS Store */
+.filter-card{
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 15px 25px;
+}
+
+.filter-title{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 20px;
+}
+
+.filter-card ul,
+.filter-card .form-check-label{
+  list-style-type: none;
+  font-size: 13px;
+  line-height: 30px;
+  color: var(--color-777777);
+  cursor: pointer;
+}
+
+.filter-card .form-check-input:focus{
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+.filter-card .form-check-input:checked{
+  background-color: var(--color-febd69);
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+.sub-title{
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.colors{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.colors li{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(156, 156, 236);
+  border-radius: 50%;
+}
+          /* End Store */

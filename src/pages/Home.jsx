@@ -124,7 +124,7 @@ const Home = () =>{
                         <div>
                         <h6>Flash Sale</h6>
                         <p className="mb-0">
-                            Khung Giờ Sale:
+                            Khung Giờ Sale: 20/06/2023
                             <div className="d-flex gap-10 align-items-center">
                               <span className="badge rounded-circle p-3 bg-dark">1</span>:
                               <span className="badge rounded-circle p-3 bg-dark">1</span>:
@@ -223,6 +223,52 @@ const Home = () =>{
             </div>  
           </div>
         </section>
+        <section className="home-wrapper-2 famous-wrapper py-5">
+          <div className="container-xxl">
+            <div className="row">
+              <div className="col-3">
+                <div className="famous-card position-relative">
+                  <img src="images/famous-1.webp" className="img-fluid" alt="famous" />
+                  <div className="famous-content position-absolute">
+                    <h6 className="text-white">Tính Năng Mới</h6>
+                    <h5 className="text-white">Smart Watch Series 8</h5>
+                    <p className="text-white">Giá từ ...</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-3">
+                <div className="famous-card position-relative">
+                  <img src="images/famous-2.webp" className="img-fluid" alt="famous" />
+                  <div className="famous-content position-absolute">
+                    <h6 className="text-dark">Thế Hệ Mới với Chip M2</h6>
+                    <h5 className="text-dark">Macbook Air</h5>
+                    <p className="text-dark">Giá từ ...</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-3">
+                <div className="famous-card position-relative">
+                  <img src="images/famous-3.webp" className="img-fluid" alt="famous" />
+                  <div className="famous-content position-absolute">
+                    <h6 className="text-dark">Phiên Bản Cao Cấp</h6>
+                    <h5 className="text-dark">IPhone 13 Pro Max</h5>
+                    <p className="text-dark">Giá từ ...</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-3">
+                <div className="famous-card position-relative">
+                  <img src="images/famous4.webp" className="img-fluid" alt="famous" />
+                  <div className="famous-content-2 position-absolute">
+                    <h6 className="text-white">Siêu Phẩm Android</h6>
+                    <h5 className="text-white">Samsung Galaxy S23 Ultra</h5>
+                    <p className="text-white">Giá từ ...</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <section className="home-wrapper-2 special-wrapper py-5">
           <div className="container-xxl">
             <div className="row">
@@ -234,6 +280,17 @@ const Home = () =>{
               <SpecialProduct />
               <SpecialProduct />
             </div>
+          </div>
+        </section>
+        <section className="home-wrapper-2 popular-wrapper py-5 ">
+          <div className="container-xxl">
+            <div className="row">
+              <div className="col-12">
+                <h3 className="section-heading">Phổ Biến</h3>
+              </div>
+              <ProductCard />
+              <ProductCard />
+            </div>  
           </div>
         </section>
         <section className="marque-wrapper py-5">
@@ -294,4 +351,4 @@ const Home = () =>{
 
 export default Home;
 
-//31542
+//41141

@@ -37,7 +37,7 @@ const SpecialProduct = () =>{
                 </div>
               </div>
               <div className="prod-count my-3">
-                <p>Sản Phẩm: 23</p>
+                <p>Còn Lại <b>23</b> Sản Phẩm</p>
                 <div className="progress">
                   <div
                     className="progress-bar"
