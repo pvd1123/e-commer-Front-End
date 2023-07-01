@@ -8,7 +8,7 @@ import ProductCard from "../components/ProductCard";
 const Home = () =>{
     return (
       <>
-        <section className="home-wrapper-1 py-5">
+        <section className="home-wrapper-1  py-5">
           <div className="container-xxl">
             <div className="row">
               <div className="col-6">
@@ -351,4 +351,4 @@ const Home = () =>{
 
 export default Home;
 
-//41141
+//42110
