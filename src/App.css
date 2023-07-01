@@ -495,4 +495,18 @@ footer .input-group-text{
 .random-products:first-child{
   border-bottom: 1px solid var(--color-131921);
 }
+
+.filter-sort-grid{
+  padding: 10px;
+  background-color: #e3e6f3;
+  border-radius: 10px;
+}
+
+.grid img{
+  width: 35px;
+  height: 35px;
+  background-color: var(--color-e3e6f3);
+  padding: 8px;
+  border-radius: 5px;  
+}
           /* End Store */

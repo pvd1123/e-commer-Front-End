@@ -172,14 +172,27 @@ const Store = () => {
                     </div>
                     <div className="col-9">
                         <div className="filter-sort-grid">
-                            <div className='d-flex align-items-center gap-10'>
-                                <p className='mb-0'>Sắp Xếp</p>
-                                <select name="" className='form-control form-select' id="">
-                                    <option value=""></option>
-                                    <option value=""></option>
-                                    <option value=""></option>
-                                    <option value=""></option>
-                                </select>
+                            <div className='d-flex justify-content-between align-items-center'>
+                                <div className='d-flex align-items-center gap-10'>
+                                    <p className='mb-0 d-block' style={{width:"100px"}}>Sắp Xếp:</p>
+                                    <select name="" className='form-control form-select' id="">
+                                        <option value="manual">Tính Năng</option>
+                                        <option value="best-selling" selected="selected">Bán Chạy</option>
+                                        <option value="title-ascending">A→Z</option>
+                                        <option value="title-descending">Z→A</option>
+                                        <option value="price-ascending">Giá từ Thấp đến Cao</option>
+                                        <option value="price-descending">Giá từ Cao đến Thấp</option>
+                                    </select>
+                                </div>
+                                <div className="d-flex align-items-center gap-10">
+                                    <p className="total-products mb-0">100 products</p>
+                                    <div className='d-flex gap-10 align-items-center grid'>
+                                        <img src="images/gr4.svg" className='d-block img-fluid' alt="grid" />
+                                        <img src="images/gr3.svg" className='d-block img-fluid' alt="grid" />
+                                        <img src="images/gr2.svg" className='d-block img-fluid' alt="grid" />
+                                        <img src="images/gr.svg" className='d-block img-fluid' alt="grid" />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
