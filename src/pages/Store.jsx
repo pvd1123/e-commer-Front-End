@@ -1,6 +1,7 @@
 import React from 'react'
 import BreadCrumb from '../components/BreadCrumb'
 import Meta from '../components/Meta';
+import ReactStars from "react-rating-stars-component";
 
 const Store = () => {
   return (
@@ -113,28 +114,75 @@ const Store = () => {
                                                     16G
                                             </label>
                                     </div>
-                                </div>
-                                
+                                </div> 
                             </div>
-
                         </div>
                         <div className='filter-card mb-3'>
                             <h3 className='filter-title'>
                                 Tính Năng
                             </h3>
                             <div>
-                                <div className="product-feature">
-                                    
+                                <div className="product-feature d-flex flex-wrap align-items-center gap-10">
+                                    <span className='badge bg-secondary rounded-3 px-3 py-3'>Gaming</span>
+                                    <span className='badge bg-secondary rounded-3 px-3 py-3'>Chụp Ảnh</span>
+                                    <span className='badge bg-secondary rounded-3 px-3 py-3'>Pin</span>
+                                    <span className='badge bg-secondary rounded-3 px-3 py-3'>Dung Lượng</span>
                                 </div>
                             </div>
                         </div>
                         <div className='filter-card mb-3'>
                             <h3 className='filter-title'>
-                                Màu Sắc
+                                Sản Phẩm Quảng Cáo
                             </h3>
+                            <div>
+                                <div className="random-products d-flex mb-4">
+                                    <div className='w-50'>
+                                        <img src="images/watch.jpg" className='img-fluid' alt="watch" />
+                                    </div>
+                                    <div className='w-50'>
+                                        <h5>Android Smart Watch</h5>
+                                        <ReactStars
+                                            count={5}
+                                            size={24}
+                                            value="5"
+                                            edit={false}
+                                            activeColor="#ffd700"
+                                        />
+                                        <b>400$</b>
+                                    </div>
+                                </div>
+                                <div className="random-products d-flex">
+                                    <div className='w-50'>
+                                        <img src="images/tab.jpg" className='img-fluid' alt="tag" />
+                                    </div>
+                                    <div className='w-50'>
+                                        <h5>Tablet</h5>
+                                        <ReactStars
+                                            count={5}
+                                            size={24}
+                                            value="5"
+                                            edit={false}
+                                            activeColor="#ffd700"
+                                        />
+                                        <b>400$</b>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div className="col-9"></div>
+                    <div className="col-9">
+                        <div className="filter-sort-grid">
+                            <div className='d-flex align-items-center gap-10'>
+                                <p className='mb-0'>Sắp Xếp</p>
+                                <select name="" className='form-control form-select' id="">
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
