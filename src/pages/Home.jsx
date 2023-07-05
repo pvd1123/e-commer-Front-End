@@ -93,6 +93,7 @@ const Home = () =>{
             </div>
           </div>
         </section>
+
         <section className="home-wrapper-2 py-5">
             <div className="container-xxl">
                 <div className="row">
@@ -145,6 +146,7 @@ const Home = () =>{
                 </div>
             </div>
         </section>
+
         <section className="home-wrapper-2 py-5">
             <div className="container-xxl">
                 <div className="row">
@@ -212,6 +214,7 @@ const Home = () =>{
                 </div>
             </div>
         </section>
+
         <section className="home-wrapper-2 featured-wrapper py-5 ">
           <div className="container-xxl">
             <div className="row">
@@ -223,6 +226,7 @@ const Home = () =>{
             </div>  
           </div>
         </section>
+
         <section className="home-wrapper-2 famous-wrapper py-5">
           <div className="container-xxl">
             <div className="row">
@@ -269,6 +273,7 @@ const Home = () =>{
             </div>
           </div>
         </section>
+
         <section className="home-wrapper-2 special-wrapper py-5">
           <div className="container-xxl">
             <div className="row">
@@ -282,6 +287,7 @@ const Home = () =>{
             </div>
           </div>
         </section>
+        
         <section className="home-wrapper-2 popular-wrapper py-5 ">
           <div className="container-xxl">
             <div className="row">
@@ -293,6 +299,7 @@ const Home = () =>{
             </div>  
           </div>
         </section>
+
         <section className="marque-wrapper py-5">
           <div className="container-xxl">
             <div className="row">
@@ -335,13 +342,22 @@ const Home = () =>{
             <div className="row">
               <div className="col-12">
                 <h3 className="section-heading">Các Đánh Giá Nổi Bật</h3>
-              </div>
-              <BlogCard />
-              <BlogCard />
-              <BlogCard />
-              <BlogCard />
+              </div>  
             </div>
-              
+              <div className="row">
+                <div className="col-3">
+                  <BlogCard />
+                </div>
+                <div className="col-3">
+                  <BlogCard />
+                </div>
+                <div className="col-3">
+                  <BlogCard />
+                </div>
+                <div className="col-3">
+                  <BlogCard />
+                </div>
+              </div>
           </div>
         </section>
         
@@ -351,4 +367,3 @@ const Home = () =>{
 
 export default Home;
 
-//43125

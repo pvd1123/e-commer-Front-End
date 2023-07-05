@@ -3,13 +3,14 @@ import BreadCrumb from '../components/BreadCrumb'
 import Meta from '../components/Meta';
 import ReactStars from "react-rating-stars-component";
 import ProductCard from '../components/ProductCard';
+import Color from '../components/Color';
 
 const Store = () => {
     const [grid, setGrid] = useState(4);
   return (
     <>
-        <Meta title={"Store"}/>
-        <BreadCrumb title = 'Store'/>
+        <Meta title={"Cửa Hàng"}/>
+        <BreadCrumb title = 'Cửa Hàng'/>
         <div className="home-wrapper-2 store-wrapper py-5">
             <div className="container-xxl">
                 <div className="row">
@@ -76,16 +77,7 @@ const Store = () => {
                                     Màu
                                 </h5>
                                 <div>
-                                    <ul className='colors ps-0'>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>  
-                                    </ul>
+                                    <Color />
 
                                 </div>
                                 <h5 className='sub-title'>

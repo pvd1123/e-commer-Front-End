@@ -45,16 +45,16 @@ const Header = () =>{
                         </div>
                         <div className="col-5">
                             <div className="header-upper-links d-flex align-items-center justify-content-between">
-                                <div>
-                                    <Link className="d-flex align-items-center gap-10">
+                                {/* <div>
+                                    <Link to="/compare-product" className="d-flex align-items-center gap-10">
                                         <img src="images/compare.svg" alt="compare" />
                                     </Link>
                                     <p className="text-white mb-0">
                                         So Sánh <br /> Sản Phẩm
                                     </p>
-                                </div>
+                                </div> */}
                                 <div>
-                                    <Link className="d-flex align-items-center gap-10">
+                                    <Link to="/wishlist" className="d-flex align-items-center gap-10">
                                         <img src="images/wishlist.svg" alt="wishlist" />
                                     </Link>
                                     <p className="text-white mb-0">
@@ -62,7 +62,7 @@ const Header = () =>{
                                     </p>
                                 </div>
                                 <div>
-                                    <Link className="d-flex align-items-center gap-10">
+                                    <Link to="/login" className="d-flex align-items-center gap-10">
                                         <img src="images/user.svg" alt="user" />
                                     </Link>
                                     <p className="text-white mb-0">
@@ -70,7 +70,7 @@ const Header = () =>{
                                     </p>
                                 </div>
                                 <div>
-                                    <Link className="d-flex align-items-center gap-10">
+                                    <Link to="/cart" className="d-flex align-items-center gap-10">
                                         <img src="images/cart.svg" alt="cart" />
                                     </Link>
                                     <div className="d-flex flex-column gap-10">
@@ -132,3 +132,5 @@ const Header = () =>{
 };
 
 export default Header;
+
+// so sánh 52643

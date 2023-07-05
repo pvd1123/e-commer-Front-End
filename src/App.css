@@ -558,3 +558,104 @@ footer .input-group-text{
 
 
           /* End Store */
+
+          /* Contact */
+.contact-wrapper-2{
+  padding: 30px 20px;
+  border-radius: 15px;
+  background-color: white;
+  gap: 15px;
+}
+
+.contact-wrapper-2 >div{
+  width: 48%;
+}
+
+.contact-title{
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: left;
+}
+
+.contact-wrapper-2 form .form-control{
+  background-color: var(--color-f5f5f7);
+  border-radius: 10px;
+  border-color: transparent;
+  padding: 10px;
+}
+
+.contact-wrapper-2 ul{
+  list-style: none;
+}
+
+.contact-wrapper-2 address,
+.contact-wrapper-2 a,
+.contact-wrapper-2 p{
+  color: var(--color-777777);
+}
+        /* End CSS Contact */
+
+        /* WishList */
+.wishlist-card .cross{
+  top: 15px;
+  right: 15px;
+  width: 25px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.wishlist-card h5 .title{
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 500;
+  color: var(--color-1c1c1b);
+}
+
+.wishlist-card .red-p{
+  color: red;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+      /* End Css WishList */
+
+      /* CSS Login */
+
+.auth-card{
+  padding: 20px;
+  background-color: var(--color-f5f5f7);
+  width: 500px;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+.auth-card h3{
+  font-size: 32px;
+  font-weight: 500;
+  color: var(--color-777777);
+}
+
+.auth-card .form-control{
+  height: 50px;
+  background-color: var(--color-f5f5f7);
+  color: var(--color-131921);
+  border-radius: 10px;
+  border-color: var(--color-777777);
+}
+
+.auth-card .signup{
+  background-color: var(--color-febd69);
+  color: var(--color-131921);
+}
+
+.auth-card .signup:hover{
+  background-color: var(--color-131921);
+  color: var(--color-febd69)
+}
+
+.auth-card p{
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-777777);
+}
