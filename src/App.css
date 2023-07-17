@@ -659,3 +659,39 @@ footer .input-group-text{
   font-weight: 500;
   color: var(--color-777777);
 }
+
+      /* end auth */
+
+    /* policy pages */
+
+.policy{
+  background-color: white;
+  padding: 30px;
+
+}
+
+    /* Main Product Page */
+
+.review-inner-wrapper{
+  background-color: white;
+  padding: 30px;
+}
+
+
+.review-head{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+}    
+
+.review-head h4{
+  font-size: 18px;
+  color: var(--color-1c1c1b);
+}
+
+.review-head p,
+.review-head a{
+  font-size: 18px;
+  color: var(--color-777777);
+}
+
+    /* end Main Product Page */
