@@ -3,6 +3,7 @@ import BreadCrumb from "../components/BreadCrumb";
 import Meta from "../components/Meta";
 import { Link } from "react-router-dom";
 import {BsArrowLeft} from 'react-icons/bs';
+import blog from "../images/blog-1.jpg"
 
 const SingleBlog = () => {
   return (

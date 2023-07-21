@@ -1,6 +1,9 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import {BsSearch} from 'react-icons/bs';
+import wishlist from "../images/wishlist.svg"
+import user from "../images/user.svg"
+import cart from "../images/cart.svg"
 
 const Header = () =>{
     return(
@@ -55,7 +58,7 @@ const Header = () =>{
                                 </div> */}
                                 <div>
                                     <Link to="/wishlist" className="d-flex align-items-center gap-10">
-                                        <img src="images/wishlist.svg" alt="wishlist" />
+                                        <img src={wishlist} alt="wishlist" />
                                     </Link>
                                     <p className="text-white mb-0">
                                         Danh Sách <br /> Yêu Thích
@@ -63,7 +66,7 @@ const Header = () =>{
                                 </div>
                                 <div>
                                     <Link to="/login" className="d-flex align-items-center gap-10">
-                                        <img src="images/user.svg" alt="user" />
+                                        <img src={user} alt="user" />
                                     </Link>
                                     <p className="text-white mb-0">
                                         Đăng Nhập <br /> Tài Khoản Của Tôi
@@ -71,7 +74,7 @@ const Header = () =>{
                                 </div>
                                 <div>
                                     <Link to="/cart" className="d-flex align-items-center gap-10">
-                                        <img src="images/cart.svg" alt="cart" />
+                                        <img src={cart} alt="cart" />
                                     </Link>
                                     <div className="d-flex flex-column gap-10">
                                         <span className="badge bg-white text-dark">0</span>
