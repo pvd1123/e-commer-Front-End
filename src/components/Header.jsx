@@ -12,13 +12,13 @@ const Header = () =>{
                 <div className="container-xxl">
                     <div className="row">
                         <div className="col-6">
-                            <p className="text-white mb-0">
+                            <p className="text-dark mb-0">
                                 Free Ship Cho Đơn Hàng Trên 1000$
                             </p>
                         </div>
                         <div className="col-6">
-                            <p className="text-end text-white mb-0">
-                                Hotline: <a className="text-white" href="tel:+84 935026874">+84 935026874</a>
+                            <p className="text-end text-dark mb-0">
+                                Hotline: <a className="text-dark" href="tel:+84 935026874">+84 935026874</a>
                             </p>
                         </div>
                     </div>
