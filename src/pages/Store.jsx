@@ -170,7 +170,13 @@ const Store = () => {
                             <div className='d-flex justify-content-between align-items-center'>
                                 <div className='d-flex align-items-center gap-10'>
                                     <p className='mb-0 d-block' style={{width:"100px"}}>Sắp Xếp:</p>
-                                    <select name="" className='form-control form-select' id="">
+                                    <select 
+                                        name=""  
+                                        className='form-control form-select' 
+                                        id=""
+                                        defaultValue={"manual"}
+                                    >
+                                        
                                         <option value="manual">Tính Năng</option>
                                         <option value="best-selling" selected="selected">Bán Chạy</option>
                                         <option value="title-ascending">A→Z</option>

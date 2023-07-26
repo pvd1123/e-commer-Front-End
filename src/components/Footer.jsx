@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { BsTiktok, BsTwitter, BsFacebook, BsInstagram } from "react-icons/bs";
+import { BsTwitter, BsFacebook, BsInstagram } from "react-icons/bs";
 import newsletter from "../images/newsletter.png"
 
 
@@ -51,9 +51,6 @@ const Footer = () =>{
                                     className="mt-2 d-block mb-0 text-white"
                                 >phathuynh0106@gmail.com</a>
                                 <div className="social_icons d-flex align-items-center gap-30 mt-4">
-                                    <a className="text-white" href="#">
-                                        <BsTiktok className="fs-4" />
-                                    </a>
                                     <a className="text-white" href="#">
                                         <BsInstagram className="fs-4" />
                                     </a>
