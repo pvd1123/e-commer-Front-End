@@ -8,6 +8,7 @@ import Color from "../components/Color"
 import { Link } from "react-router-dom";
 import {BsHeart} from 'react-icons/bs';
 import watch from "../images/watch.jpg"
+import Container from "../components/Container";
 
 export const SingleProduct = () => {
   const props = {
@@ -32,8 +33,8 @@ export const SingleProduct = () => {
     <>
       <Meta title={"Sản Phẩm"} />
       <BreadCrumb title="Sản Phẩm" />
-      <div className="main-product-wrapper home-wrapper-2 py-5">
-        <div className="container-xxl">
+      <Container class1="main-product-wrapper home-wrapper-2 py-5">
+
           <div className="row">
             <div className="col-6">
               <div className="main-product-image">
@@ -157,11 +158,11 @@ export const SingleProduct = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        
+      </Container>
 
-      <div className="description-wrapper home-wrapper-2 py-5">
-        <div className="container-xxl">
+      <Container class1="description-wrapper home-wrapper-2 py-5">
+        
           <div className="row">
             <div className="col-12">
               <h4>Mô Tả</h4>
@@ -170,11 +171,10 @@ export const SingleProduct = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+       
+      </Container>
 
-      <section className="reviews-wrapper home-wrapper-2">
-        <div className="container-xxl">
+      <Container class1="reviews-wrapper home-wrapper-2">
           <div className="row">
             <div className="col-12">
               <h3 id="review">Đánh Giá</h3>
@@ -249,11 +249,10 @@ export const SingleProduct = () => {
               </div>
             </div>
           </div>
-        </div>
-      </section>
+      </Container>
 
-      <section className="home-wrapper-2 popular-wrapper py-5 ">
-        <div className="container-xxl">
+      <Container class1="home-wrapper-2 popular-wrapper py-5 ">
+        
           <div className="row">
             <div className="col-12">
               <h3 className="section-heading">Phổ Biến</h3>
@@ -262,8 +261,8 @@ export const SingleProduct = () => {
               <ProductCard />
             </div>
           </div>
-        </div>
-      </section>
+      
+      </Container>
     </>
   );
 };

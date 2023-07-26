@@ -1,14 +1,14 @@
 import React from 'react'
 import BreadCrumb from '../components/BreadCrumb'
 import Meta from '../components/Meta';
+import Container from '../components/Container';
 
 function TermAndConditions() {
   return (
     <>
         <Meta title={"Điều Khoản & Điều Kiện"}/>
         <BreadCrumb title = 'Điều Khoản & Điều Kiện'/>
-        <section className='policy-wrapper py-5 home-wrapper-2'>
-          <div className="container-xxl">
+        <Container class1='policy-wrapper py-5 home-wrapper-2'>
             <div className="row">
               <div className="col-12">
                 <div className="policy">
@@ -16,8 +16,7 @@ function TermAndConditions() {
                 </div>
               </div>
             </div>
-          </div>
-        </section>
+        </Container>
     </>
   )
 }
